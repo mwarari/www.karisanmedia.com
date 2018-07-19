@@ -1,0 +1,243 @@
+/*
+Theme Name: Grunge Music
+Theme URI: http://www.grungemusictheme.com/
+Description: An ideal theme for guitar and music based websites/blogs.
+Version: 1.8
+Author: Pankaj Roy
+Author URI: http://www.ycoding.com/
+Tags: two-columns, fixed-width, red, black, right-sidebar, threaded-comments
+
+    Grunge Music
+    http://www.ycoding.com/
+
+	This theme was designed and coded by Pankaj Kumar Roy,
+	whose portfolio is available at http://www.ycoding.com/
+	Updates in this version: Made css more clear, added threaded comment. use of h1 tags in single post and page to make  the theme more SEO optimized.
+
+	The CSS, XHTML and design is released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+
+*/
+
+
+body {
+font:normal 12px Arial, Tahoma,Verdana;
+color : #fff;margin:0; padding:0;
+background :#090200;
+}
+
+/* Normal tags */
+h1, h2, h3, h4, h5, h6, ul, ol, table, tr, td, form, input {margin:0; padding:0;}
+
+h1, h2 {font:normal 20px arial;padding:0 0 5px 0;}
+h3 {font:normal 16px arial;}
+h4 {font:bold 14px arial;}
+h5, h6 {font:bold 12px arial;}
+
+a {color:#F46E38;text-decoration : none;}
+a:hover {text-decoration : underline;}
+img {margin:0; padding:0;}
+a img {border:0;}
+p {padding : 5px 0;margin : 0;}
+small {font-size:11px;}
+input, select, textarea {color:#fff; width: 170px;background:#551808;margin:0 5px 5px 0; height:16px;padding:4px 3px;border:1px solid #230903;vertical-align:top;}
+select { width: 130px; }
+blockquote { border-left: 5px solid #3D1005; border-right:5px solid #3D1005;margin:10px; padding:5px 10px;background:#1A0703}
+code {font: 11px 'Courier New', Courier, Fixed; border:1px dashed #3D1005;margin:10px;padding:10px 20px;display:block;color:#ccc;background:#1A0703}
+textarea { width: 320px; height:80px;}
+#submit, #searchsubmit {background:#230903;height:26px;cursor:pointer;width:70px;}
+#submit:hover, #searchsubmit:hover {color:#fff;}
+input#submit {width:160px;background:#030000;font-weight:bold; height:32px;color:#F46E38;}
+table {border-collapse:collapse;border-color:#030000;}
+td,th {padding:5px 10px;}
+th {background:#1A0703;}
+
+/*alignments*/
+
+.alignleft {float:left;width:auto;}
+.alignright {float:right;width:auto;}
+.aligncenter {margin:0 auto;text-align: center;}
+.center { text-align: center;}
+
+/* Begin Images */
+p img {	padding: 0;	max-width: 90%;	}
+img.centered, img.center { display: block;	margin:0 auto;}
+img.alignright {padding: 4px; margin: 0 0 2px 7px; display: inline;	}
+img.alignleft { padding: 4px; margin: 0 7px 2px 0; display: inline; }
+img.avatar {float:right;}
+
+
+
+/*  ====================== Page Structure ================= */
+
+#wrapper {width : 800px; margin:0 auto;background :#230903 url(images/cont-bg.gif) repeat-y;}
+#header {width:800px; margin:0 auto; height:188px;background :#4A1206 url(images/header.gif) no-repeat;text-align:center;padding-top:50px;}
+#page {margin:0 auto; width:800px; min-height:409px;background : url(images/cont-top.gif) no-repeat;}
+#cont-btm {width:800px; height:102px;background : url(images/cont-btm.gif) no-repeat;}
+#footer-outer {background:#230903;margin:0 auto;width:800px;padding-bottom:20px;}
+#footer-inr {background:#2B0B04 url(images/ftr-top.gif) no-repeat;width:700px; margin:0 auto;}
+#footer {padding:16px; background:#230903;font:normal 11px/19px arial;text-align:center;background:url(images/ftr-btm.gif) no-repeat bottom left;color:#F3AC8F;}
+#sidebar{float:left; width:214px; margin:0;padding:20px 10px 0 10px;}
+#content{float:left; width:526px; padding:10px 20px 0 20px;}
+
+/*  ====================== Header ======================= */
+
+
+/* --------- Logo ------------ */
+.logo {font:normal 36px arial;color:#fff;}
+.logo a{color:#fff;text-decoration:none;}
+.logo a:hover{color:#fff;text-decoration:none;}
+.desc {font:normal 13px arial;color:#fff;padding:5px 0;}
+
+/* --------- Navigation -------- */
+
+#nav {list-style : none;text-align:center;width:700px; padding:40px 50px;background :#3F1106 url(images/nav-bg.gif) no-repeat;margin:0 auto;}
+#nav li {padding:0 15px 0 29px; font:normal 18px/24px arial; background : url(images/nav-li.gif) no-repeat 0 5px;display:inline;}
+#nav li.home {background :none;padding:0 15px 0 15px;}
+#nav li a {color:#D3CFCE;text-decoration:none; }
+#nav li a:hover {text-decoration : none;color:#fff;}
+#nav li.current_page_item a {color:#F46E38;}
+/* search bar ----*/
+form.searchbar { margin:0;padding:0; }
+form.searchbar p {margin:0;padding:0;}
+form.searchbar input{float:left;margin:0; color:#fff;border:0; }
+form.searchbar input.txt{width:119px;background:#551808;margin:0 5px 5px 0; height:16px;padding:4px 3px;}
+form.searchbar input.btn{background:#3D1005;font-weight : bold;height:24px;cursor:pointer;width:70px;}
+form.searchbar input.btn:hover {color:#F46E38;}
+
+
+
+
+/*  ======================== Contents ======================= */
+.post {padding:0 0 30px 0; }
+#content form#searchform {text-align:center;}
+.post h2, .post h1 {color:#fff;font:normal 24px arial;padding:0 0 5px 0;}
+.post h2 a, .post h1 a {color:#fff;}
+.post h2 a:hover, .post h1 a:hover {color:#F46E38; text-decoration:none;}
+.post .date {color:#F46E38; font-size:11px;}
+.post .date a {color:#F46E38;}
+.entry {text-align:justify;padding:10px 0;}
+a.more-link {text-align:right;color:#F46E38; }
+p.postmetadata {color:#F46E38;}
+h2.pagetitle, h2.center {text-align: center; padding:0 0 15px 0; color:#F46E38;}
+
+/* Begin Lists */
+.entry ol,.entry ul {margin: 0;	padding: 5px 0 5px 35px; }
+.entry li {margin: 0; padding: 0; }
+.postmetadata ul, .postmetadata li { display: inline; list-style-type: none;list-style-image: none;}
+
+
+/* Begin Form Elements */
+#searchform {margin-top:30px;}
+.entry form { text-align:center; }
+
+
+
+/* --------------- SideBars ----------------*/
+#sidebar .sb-box {margin-top:10px; padding-bottom:15px;}
+#sidebar h2 {font:normal 20px arial; color:#F46E38; }
+#sidebar ul {list-style:none;}
+#sidebar li {list-style:none;color:#fff;padding:3px 0 0 15px;}
+#sidebar a {color:#fff;}
+#sidebar a:hover {color:#F46E38;text-decoration:none;}
+
+#sidebar .current-cat a {color:#F46E38;}
+
+
+/*  ========================= Footer  ======================= */
+#footer p {padding:0;}
+#footer a{color:#fff;font-weight:bold;}
+
+
+/*  ================================= Others ============================= */
+
+.clr {clear : both;font:normal 1px/1px arial; height:1px;}
+
+
+/* --------------------- common elements --------------------------- */
+.navigation { display: block; color : #F46E38; padding:0 0 15px 0;font-weight:bold;}
+.navigation .alignright { width:49%; text-align:right; }
+.navigation .alignleft {width:49%; text-align:left;}
+
+
+
+
+.alt, odd { background:#2B0B04;margin: 0; padding: 10px;}
+.even { background:#3D1005;}
+
+/* Comments section */
+
+h3#comments, #respond h3 {padding:10px 0;font-weight:bold;}
+
+
+
+ol.commentlist {margin:0;padding:0;}
+.commentlist li { font-weight:normal;}
+.commentlist cite, .commentlist cite a {font-weight: bold;font-style: normal;font-size: 12px;}
+
+.wp-caption {
+   border: 1px solid #ddd;
+   text-align: center;
+   background-color: #f3f3f3;
+   padding-top: 4px;
+   margin: 10px;
+}
+
+.wp-caption img {
+   margin: 0;
+   padding: 0;
+   border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+   font-size: 11px;
+   line-height: 17px;
+   padding: 0 4px 5px;
+   margin: 0;
+}
+
+
+
+/* Begin Calendar */
+#calendar_wrap {border-top: 0;color:#ffffff;margin-top:10px;}
+#calendar_wrap table, #calendar_wrap th {margin:0 auto;padding:0;}
+#wp-calendar {empty-cells: show;margin: 10px auto 0;width: 98%;	font-size: 9px;}
+#wp-calendar #next a {padding-right: 2px;text-align: right;}
+#wp-calendar #prev a {padding-left: 2px;text-align: left;	}
+#wp-calendar a {display: block;}
+#wp-calendar caption {text-align: center;width: 100%;font-size:12px;padding:0 0 5px 0;font-weight:bold;color:#fff;}
+#wp-calendar td {padding: 1px 0; text-align: center;}
+#wp-calendar td.pad:hover { background-color: #424242; }
+#wp-calendar #prev a, #wp-calendar #next a {font-size: 9px;	}
+#wp-calendar a {text-decoration: none;	}
+#wp-calendar caption { 	text-align: center; }
+#wp-calendar th { font-style: normal;text-transform: capitalize;}
+#calendar_wrap #today {font-weight:bold;color:#000;background:#fffffe;}
+/* End Calendar */
+
+.smallattachment {text-align: center; float: left;margin: 5px 5px 5px 0px;width:auto;}
+.attachment {text-align: center; margin: 5px 0px;}
+
+
+
+
+
+/* Begin Comments*/
+.commentlist { padding: 0; text-align: justify;}
+.commentlist li { margin: 15px 0 3px; padding: 5px 10px 3px; list-style: none;}
+.commentlist p {margin: 10px 5px 10px 0; }
+.nocomments { text-align: center; }
+.commentmetadata {display: block; font-size:10px;font-weight:normal;}
+
+/* End Comments */
+
+/* Begin Various Tags & Classes */
+acronym, abbr, span.caps { 	cursor: help;}
+acronym, abbr { border-bottom: 1px dashed #424242; }
+blockquote cite { margin: 5px 0 0; display: block;}
+hr { display: none; }
+
+
+/* End Various Tags & Classes*/
+
+

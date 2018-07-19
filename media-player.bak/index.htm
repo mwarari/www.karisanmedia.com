@@ -1,0 +1,696 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+		<head>
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+			<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+			<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+			<META HTTP-EQUIV="EXPIRES" CONTENT="0">
+			<meta name="distribution" content="Global">
+			<meta name="robots" content="FOLLOW,INDEX">
+			<meta name="description" content="I'm listening to Reaching Out to Our People.&nbsp;KARISAN&nbsp; - Media Production Did you loose connection. Refresh Karisan, Open the player again">
+			
+				<meta name="keywords" content="radio streaming services, online streaming, live radio, internet stream, studio automation, mobile streams, customized player skins, last songs played, on-demand streaming, video streaming, ad replacement, black-out, player access control, album art display, streaming stats, SAM, SS32, Maestro, Simian, Prophet, OMT, AudioVAULT, Stationplaylist">
+				<meta name="author" content="Karisan Media - www.karisanmedia.com">
+				<meta name="copyright" content=" Karisan Media. 2011">
+				
+			
+
+			<title>Listen to Reaching Out to Our People.&nbsp;KARISAN&nbsp; - Media Production Did you loose connection. Refresh Karisan, Open the player again</title>
+
+			<link rel="stylesheet" href="http://www.karisanmedia.com/media-player/v3/radio_player_large.css" type="text/css" />
+			<script type="text/javascript" src="http://www.karisanmedia.com/media-player/v3/jquery.js"></script>
+			<!--PNG FIX FOR IE -->
+			<!--[if IE 6]>
+			<script type="text/javascript" src="http://www.karisanmedia.com/media-player/v3/jquery.ifixpng2.js"></script>
+			<script type="text/javascript" src="http://www.karisanmedia.com/media-player/v3/jquery.custom.ie.js"></script>
+			<![endif]-->
+
+			<style type="text/css" media="print"><!--body{display:none}--></style>
+
+			<style type="text/css">
+			<!--
+
+			
+
+				body {
+					margin: 0px;
+					background:url(http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/Variety-Purple-Haze/bg_button.jpg) no-repeat #444444;
+					}
+
+				.main_player_large{width:737px;height:344px;padding:20px 22px;margin:10px 15px 0px 20px;background:url(http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/player_shared/bg_player_large.png) no-repeat top left;}
+				.main_player_small{width:737px;height:225px;padding:20px 22px;margin:10px 15px 0px 20px;background:url(http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/player_shared/bg_player_large.png) no-repeat top left;}
+
+				
+
+				.player_left_top{float:left;width:289px;height:209px;padding:10px 0;text-align:center;background:url(http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/player_shared/bg_left_top.png) no-repeat top left;}
+
+				.player_right_top{float:right;width:448px;height:209px;padding:10px 0;text-align:center;background:url(http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/player_shared/bg_right_top.png) no-repeat top left;}
+				.player_left_bottom{float:left;width:289px;height:101px;padding:5px 0;text-align:center;background:url(http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/player_shared/bg_left_bottom.png) no-repeat top left;}
+				.player_right_bottom{float:right;width:448px;height:101px;padding:5px 0;text-align:center;font:normal 9px Verdana; text-transform:none;background:url(http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/player_shared/bg_right_bottom.png) no-repeat top left;}
+				.player_bottom_large{float:right;width:705px;height:91px;padding:21px 21px 0 11px;text-align:center;vertical-align:middle;font:normal 9px Verdana; text-transform:none;background:url(http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/player_shared/bg_bottom_large.png) no-repeat top left;}
+				.bg_trans{margin:15px 0px 0px 7px;padding:3px 0;text-align:center;background:url(http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/player_shared/bg_player_large.png) no-repeat center top;}
+
+			
+
+			//-->
+			</style>	
+
+		</head>
+	
+
+		<body leftmargin="0"
+			  topmargin="0"
+			  marginheight="0"
+			  marginwidth="0"
+			  bgcolor="#ffffff"
+			  onLoad="pageProcessOnLoad();">
+
+			
+			<script type="text/javascript" src="/scripts/fancybox/jquery.mousewheel-3.0.2.pack.js"></script>
+			<script type="text/javascript" src="/scripts/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+			<link rel="stylesheet" type="text/css" href="/scripts/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+			<script type="text/javascript">
+				$(document).ready(function() {
+					
+						$("#various1").fancybox({
+						'titlePosition'  : 'inside',
+						'transitionIn'  : 'none',
+						'transitionOut'  : 'none'
+						
+							
+							,'onComplete' : function(){toggleChatDsp();}
+							,'onClosed' : function(){toggleChatDsp();}
+							
+						
+						});
+					
+						$("#various2").fancybox({
+						'titlePosition'  : 'inside',
+						'transitionIn'  : 'none',
+						'transitionOut'  : 'none'
+						
+							
+							,'onComplete' : function(){toggleChatDsp();}
+							,'onClosed' : function(){toggleChatDsp();}
+							
+						
+						});
+					
+						$("#various3").fancybox({
+						'titlePosition'  : 'inside',
+						'transitionIn'  : 'none',
+						'transitionOut'  : 'none'
+						
+						});
+					
+						$("#various4").fancybox({
+						'titlePosition'  : 'inside',
+						'transitionIn'  : 'none',
+						'transitionOut'  : 'none'
+						
+						});
+					
+						$("#various5").fancybox({
+						'titlePosition'  : 'inside',
+						'transitionIn'  : 'none',
+						'transitionOut'  : 'none'
+						
+						});
+					
+						$("#various6").fancybox({
+						'titlePosition'  : 'inside',
+						'transitionIn'  : 'none',
+						'transitionOut'  : 'none'
+						
+						});
+					
+						$("#various7").fancybox({
+						'titlePosition'  : 'inside',
+						'transitionIn'  : 'none',
+						'transitionOut'  : 'none'
+						
+						});
+					
+						$("#various8").fancybox({
+						'titlePosition'  : 'inside',
+						'transitionIn'  : 'none',
+						'transitionOut'  : 'none'
+						
+						});
+					
+				});
+			</script>	
+			
+
+			
+			
+
+	<script language="JavaScript" type="text/javascript">
+	<!--
+		
+		var _isMac = false;
+		
+		var streamSRCbase = "/radio_player_get_stream.cfm?stationCallSign=KARISAN&playSessionID=F5483CBE-3048-70DF-82DA32D5D41976D0&embedPlayerType=FLA";
+		
+		
+			// var streamSRClive = "http://ice3.securenetsystems.net:80/KARISAN?type=.flv";
+		
+
+		
+		var blackoutCheck = setTimeout("location.replace(location.href)",86404000);
+		
+		
+		
+		
+		
+
+		var stationCallSign = "KARISAN";
+		var playSessionID = "F5483CBE-3048-70DF-82DA32D5D41976D0";
+		var streamSRC = "/radio_player_get_stream.cfm?stationCallSign=KARISAN&playSessionID=F5483CBE-3048-70DF-82DA32D5D41976D0&embedPlayerType=FLA";
+		//var chatSRC = "<iframe frameborder='no' style='width:410px;height:280px;overflow:auto;' src='http://ssichat.securenetsystems.net/index.php?chatChannel=5423251306'></iframe>";
+		//var chatSRC = "<iframe frameborder='no' style='width:410px;height:280px;overflow:auto;' src='http://www.karisanmedia.com/chat/KarisanMedia/'></iframe>";
+		var chatSRC = "<embed src='http://widget.meebo.com/mm.swf?cgzoRAJjEd' type='application/x-shockwave-flash' width='190' height='275'></embed>";
+		var isChatVisible = false;
+		var centralSvrPrefixURL = "http://www.karisanmedia.com/media-player/";
+		var playerSkinTuner = false;
+		var playerDspMode = "full";
+		var playerDspModeSaved = playerDspMode;
+		var playerDspModeToggle = true;
+		var playerSkin = "Variety-Purple-Haze";
+		var playerLinkButtons = true;
+		var embedPlayerType = "FLA";
+		var dspVideoPlayer = false;
+		var dspVideoPlayerTopOffset = (playerLinkButtons == true ? "103" : "70");
+		var dspVideoPlayerLeftOffset = "380";
+		var streamServerType = "ICE";
+		var playerMonitorState = true;
+		var playerAutoStart = true;
+		var videoPrerollEnabled = false;
+		var videoPrerollFileID = 0;
+		var videoPrerollDuration = 0;
+		var audioPrerollEnabled = false;
+		var audioPrerollFileID = 0;
+		var audioPrerollDuration = 0;
+		var fileArchive = false;
+		var bannerAutoRollFqcy = 0;
+		var dspBannerB = true;
+		var playerPollingEnable = true;
+		var adReplacement = false;
+		var adReplacementInitializeStatus = false;
+		var adReplacementPlayCampaignID = "";
+		var adReplacementPlayBannerFileID = "";
+		var streamStatusMonitorURL = "http://www.karisanmedia.com/media-player:80/lookup.aspx";
+		var adReplacementFlag = false;
+		var nowPlayingTitle = "";
+		var nowPlayingArtist = "";
+		var nowPlayingAlbum = "";
+		var nowPlayingAlbumArt = "";
+		var nowPlayingDuration = 0;
+		var affiliateIDamazon = "secursyste-20";
+		var dspSongData = true;
+		var dspAlbumArt = true;
+		var dspBuyMediaButton = true;
+		var currentFileArchivePlayIndex = 0;
+		var dspPositionBar = false;
+		var rejoinPriority = "PGM";
+		var blackoutInProgress = false;
+		var blackoutType = "";
+		var playerSkinBg = "http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/Variety-Purple-Haze/bg_button.jpg";
+
+		
+		var bannerTypeList = new Array("S","L","X","B");
+
+		
+
+			var bannerIDS = new Array();
+			var bannerImgS = new Array();
+			var bannerURLS = new Array();
+			var bannerCodeS = new Array();
+			var bannerAdFileIDS = new Array();
+			var bannerRandomFillS = new Array();
+			var shuffleBannerListS = new Array();
+			var syncBannerIndexListS = new Array();
+			var bannerSpanDspS = false;
+			var bannerTypeDspS = false;
+
+		
+
+			var bannerIDL = new Array();
+			var bannerImgL = new Array();
+			var bannerURLL = new Array();
+			var bannerCodeL = new Array();
+			var bannerAdFileIDL = new Array();
+			var bannerRandomFillL = new Array();
+			var shuffleBannerListL = new Array();
+			var syncBannerIndexListL = new Array();
+			var bannerSpanDspL = false;
+			var bannerTypeDspL = false;
+
+		
+
+			var bannerIDX = new Array();
+			var bannerImgX = new Array();
+			var bannerURLX = new Array();
+			var bannerCodeX = new Array();
+			var bannerAdFileIDX = new Array();
+			var bannerRandomFillX = new Array();
+			var shuffleBannerListX = new Array();
+			var syncBannerIndexListX = new Array();
+			var bannerSpanDspX = false;
+			var bannerTypeDspX = false;
+
+		
+
+			var bannerIDB = new Array("10096");
+			var bannerImgB = new Array("streamer.png");
+			var bannerURLB = new Array("http://www.karisanmedia.com/?cat=10");
+			var bannerCodeB = new Array("");
+			var bannerAdFileIDB = new Array("");
+			var bannerRandomFillB = new Array(false);
+			var shuffleBannerListB = new Array();
+			var syncBannerIndexListB = new Array();
+			var bannerSpanDspB = false;
+			var bannerTypeDspB = false;
+
+		
+
+			var fileArchiveList;
+			var fileArchiveIndexList;
+			var fileArchiveIDList;
+			var fileArchiveDurationList;
+
+		
+
+			var audioPrerollList;
+			var audioPrerollIDList;
+			var audioPrerollDurationList;
+
+		
+				
+
+	//-->
+	</script>
+
+
+			
+
+			
+			<script language="JavaScript" type="text/javascript" src="http://www.karisanmedia.com/media-player/v3/radio_player_large_scripts_resize.js"></script>
+			<script language="JavaScript" type="text/javascript" src="http://www.karisanmedia.com/media-player/v3/radio_player_large_scripts_general.js"></script>
+			
+
+			
+			<script language="JavaScript" type="text/javascript" src="http://www.karisanmedia.com/media-player/v3/radio_player_large_scripts_banner.js"></script>
+				
+
+			
+			<script language="JavaScript" type="text/javascript" src="http://www.karisanmedia.com/media-player/v3/radio_player_large_scripts_file_play.js"></script>
+				
+				<script language="JavaScript" type="text/javascript" src="http://www.karisanmedia.com/media-player/v3/radio_player_large_scripts_file_play_FLA.js"></script>
+				
+					
+
+			
+			<script language="JavaScript" type="text/javascript" src="http://www.karisanmedia.com/media-player/v3/radio_player_large_scripts_ad_replacement.js"></script>
+					
+
+			
+			<div id="videoPreroll" style="background-image: url(http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/Variety-Purple-Haze/overlay.png);display:none;"></div> 
+			<div id="streamTimeoutDiv" class="body_text_09_bold" style="border:1px solid black;display:none;background-color:#ffffff;">
+				<center>
+					<br>
+					<p style="font-size:15px;">Are you still here?</p>
+					<br>
+					<p>The audio stream will stop in</p>
+					<p><span id="streamTimeoutCounter" style="font-size:20px;">....</span></p>
+					<p>seconds</p>
+					<br>
+					<p><a href="javascript:streamTimeoutCancel();" class="a2">Click here to continue listening</a></p>			
+				</center>
+			</div> 
+			
+
+			
+			<div style="display:none;">
+				<div id="embedDiv" class="body_text_09_bold" style="width:500px;height:220px;overflow:auto;">
+					<form id="embedCodeForm" onSubmit="return false;" style="margin-top:0px;">
+						<p class="body_text_09_bold" style="font-size:15pt;">Player linking & embedding</p>
+						<table border="0" cellspacing="0" cellpadding="5">
+							<tr>
+								<td>URL:</td>
+								<td><input type="text" name="embedCodeFormLink" style="width:400px;" value="http://www.karisanmedia.com/media-player/radio_player_large.cfm?stationCallSign=KARISAN" onClick="this.select();"></td>
+							</tr>
+							<tr><td>&nbsp;</td></tr>
+							<tr>
+								<td>Embed:</td>
+								<td><input type="text" name="embedCodeFormEmbed" style="width:400px;" value="<iframe frameborder=&quot;0&quot; width=&quot;820&quot; height=&quot;508&quot; scrolling=&quot;no&quot; style=&quot;text-align:center; vertical-align:middle;&quot; src=&quot;http://www.karisanmedia.com/media-player/radio_player_large.cfm?stationCallSign=KARISAN&quot;></iframe>" onClick="this.select();"></td>
+							</tr>
+							<tr><td>&nbsp;</td></tr>
+							<tr>
+								<td>Browser:</td>
+								<td><a href="javascript:createPlayerShortcutBookmark();" style="font-size:9pt;"><b>Click here to add a favorite (shortcut)</b></a></td>
+							</tr>
+						</table>
+					</form>
+				</div>
+			</div>
+			
+			
+			
+			
+				<div style="display:none;">
+					<div id="chatDiv" style="width:415px;height:285px;">Loading chat, please wait....</div>
+					
+				</div>
+			
+						
+
+			
+			<div style="display:none;">
+				<div id="faqDiv" class="body_text_09_bold" style="width:500px;height:220px;overflow:auto;">
+					<p class="body_text_09_bold" style="font-size:15pt;">What's required to listen to the stream?</p>
+
+					<p>&nbsp;</p>
+
+					
+						<p>
+							Please install Adobe's Flash Player by clicking here:<br>
+							<a href="http://get.adobe.com/flashplayer/?promoid=DRHWS">http://get.adobe.com/flashplayer/?promoid=DRHWS</a>
+						</p>			
+					
+
+					<p>&nbsp;</p>
+
+					<p>If you have tried all of the suggestions above and still need help<br>please contact the radio station.</p>
+				</div>
+			</div>
+			
+
+			
+			
+
+			<table border="0" cellspacing="0" cellpadding="0" id="bodyDiv">
+
+				<tr>
+					<td><img src="http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/Variety-Purple-Haze/dot_blank.gif" width="1" height="14"></td>
+				</tr>
+
+				
+				
+					<tr>
+						<td colspan="5" align="center">
+							<table border="0" cellspacing="7" cellpadding="0">
+								<tr>
+									
+										<td width="134" height="33" style="background-color:#260751;border:1px solid #960018;" align="center"><a href="http://www.jambonewspot.com/" target="_new" class="a2" style="color:#F49F9B">Jambo Newspot</a></nobr></td>
+										
+											<td><img src="http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/Variety-Purple-Haze/dot_blank.gif" width="10" height="1"></td>
+										
+										<td width="134" height="33" style="background-color:#260751;border:1px solid #960018;" align="center"><a href="http://www.kenyansista.com/" target="_new" class="a2" style="color:#F49F9B">Kenyan Sista</a></nobr></td>
+										
+											<td><img src="http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/Variety-Purple-Haze/dot_blank.gif" width="10" height="1"></td>
+										
+										<td width="134" height="33" style="background-color:#260751;border:1px solid #960018;" align="center"><a href="http://www.djkayzee.com/" target="_new" class="a2" style="color:#F49F9B">DJ KayZee</a></nobr></td>
+										
+											<td><img src="http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/Variety-Purple-Haze/dot_blank.gif" width="10" height="1"></td>
+										
+										<td width="134" height="33" style="background-color:#260751;border:1px solid #960018;" align="center"><a href="http://pichamtaani.org/" target="_new" class="a2" style="color:#F49F9B">Picha Mtaani</a></nobr></td>
+										
+											<td><img src="http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/Variety-Purple-Haze/dot_blank.gif" width="10" height="1"></td>
+										
+										<td width="134" height="33" style="background-color:#260751;border:1px solid #960018;" align="center"><a href=" " target="_new" class="a2" style="color:#F49F9B"> </a></nobr></td>
+										
+								</tr>
+							</table>
+						</td>
+					</tr>
+				
+				
+
+				<tr>
+					<td colspan="5">
+						<div class="main_player_small">
+							<div class="player_left_top" onMouseOver="albumArtDspToggle('on');" onMouseOut="albumArtDspToggle('off');" id="playerTransportDiv">
+								<table width="247" border="0" cellspacing="0" cellpadding="0" style="margin: 0px 0px 0px 18px;" id="playerTransportTable">
+									
+									
+						<tr>
+							<td align="center" valign="top" background="http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/Variety-Purple-Haze/player_bg_top.gif"><img src="http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/Variety-Purple-Haze/dot_blank.gif" width="1" height="5"></td>
+						</tr>
+
+						
+						<tr>
+							<td align="center" bgcolor="#ffffff" class="playerCell" width="247">
+								<b>Reaching Out to Our People.</b><br>
+								<b> KARISAN 
+								   			-
+								   		Media Production </b><br>
+								<b>More shows coming soon...</b><b></b>
+							</td>
+						</tr>
+						
+
+						<tr><td class="playerCell"><img src=http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/Variety-Purple-Haze/dot_blank.gif width=1 height=5></td></tr>
+
+						
+						
+
+						
+						<tr>
+							<td align="center" bgcolor="#ffffff" class="playerCell">
+						  <table border="0" cellspacing="0" cellpadding="0" height="37" width="235">
+									<tr>
+										
+									  <td width="180" height="37">
+                                        
+                                        <div id="playerDivMessage" style="display:inline;width:150px;height:35px;" class="body_text_08">
+                                        
+                                        <table border="0" cellspacing="0" cellpading="0" width="235">
+											<tr>
+												<td align="center">
+                                                	<object id="fmp256" type="application/x-shockwave-flash" data="http://www.icastcenter.com/minicaster.swf" width="180" height="70">
+													<param name="movie" value="http://www.icastcenter.com/minicaster.swf" />
+													<param name="flashVars" value="config=http://www.icastcenter.com/cast/tunein.php/karisan/playlist.mc" />
+													<param name="wmode" value="transparent" />
+													<param name="allowScriptAccess" value="always" />
+													</object>
+                                                </td>
+													
+											</tr>
+										</table>
+                                            
+                                        </div>
+                                        <div id="playerDivPlaying" style="display:none;width:150px;height:35px;">
+                                        <table border="0" cellspacing="0" cellpading="0" height="27" width="150">
+											<tr align="right">
+												<td height="27"></td>
+													<td width="18" height="27"></td>
+														<td width="18" height="27"></td>
+														<td height="27"></td>
+														<td width="62" align="right"></td>
+													</tr>
+												</table></div></td>
+										<td></td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						
+
+						
+						<tr>
+							<td class="playerCell" align="center"><img src="http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/Variety-Purple-Haze/dot_blank.gif" width="225" height="1"><div id="streamResumeCounterDsp" class="body_text_09_bold" style="display:none;">Live stream begins in<br><span id="streamResumeCounter" style="font-size:20px;">....</span><br>seconds</div></td>
+						</tr>
+						
+						
+
+						
+
+						<tr><td class="playerCell"><img src=http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/Variety-Purple-Haze/dot_blank.gif width=1 height=5></td></tr>
+
+						
+								
+								<tr><td style="padding-left:7px;" align="left" class="playerCell"><img src="http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/Variety-Purple-Haze/dot_blank.gif" width="1" height="2"><br><div id="nowPlayingMaster" style="display:none;">
+										
+											<table border="0" cellspacing="0" cellpadding="0">
+												<tr>
+													<td class="body_text_08"><img src="http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/Variety-Purple-Haze/now_playing_title.jpg" width="17" height="17" alt="Now playing"></td>
+													<td class="body_text_08"><img src="http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/Variety-Purple-Haze/dot_blank.gif" width="8" height="1"></td>
+													<td><div id="nowPlayingTitleDsp" class="body_text_08_bold" style="width:200px;text-overflow:ellipsis;overflow-x:hidden;"><nobr></nobr></div></td>
+												</tr>
+												<tr>
+													<td class="body_text_08"><img src="http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/Variety-Purple-Haze/now_playing_artist.jpg" width="17" height="17" alt="Artist"></td>
+													<td class="body_text_08"><img src="http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/Variety-Purple-Haze/dot_blank.gif" width="8" height="1"></td>
+													<td><div id="nowPlayingArtistDsp" class="body_text_08" style="width:200px;text-overflow:ellipsis;overflow-x:hidden;"><nobr></nobr></div></td>
+												</tr>
+												<tr>
+													<td class="body_text_08"><img src="http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/Variety-Purple-Haze/now_playing_album.jpg" width="17" height="17" alt="Album"></td>
+													<td class="body_text_08"><img src="http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/Variety-Purple-Haze/dot_blank.gif" width="8" height="1"></td>
+													<td><div id="nowPlayingAlbumDsp" class="body_text_08" style="width:200px;text-overflow:ellipsis;overflow-x:hidden;"><nobr></nobr></div></td>
+												</tr>
+
+												<tr><td class="body_text_08" colspan="3"><img src="http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/Variety-Purple-Haze/dot_blank.gif" width="1" height="6"></td></tr>
+
+												<tr>
+													<td class="body_text_08"><img src="http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/Variety-Purple-Haze/dot_blank.gif" width="17" height="17"></td>
+													<td class="body_text_08"><img src="http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/Variety-Purple-Haze/dot_blank.gif" width="8" height="1"></td>
+													<td><a id="nowPlayingBuyLinkAmazon" href="http://www.amazon.com/s/ref=nb_ss_gw?tag=secursyste-20&url=search-alias%3Daps&field-keywords=%20" target=\"_blank\" ><img src="http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/Variety-Purple-Haze/buy_now_amazon.gif" width="78" height="22" border="0" alt="Buy now on Amazon.com" align="middle"></a></td>
+												</tr>
+											</table></div>
+									</td>
+								</tr>
+								
+
+								
+
+							
+
+						<tr>
+							<td align="center" valign="bottom"><img src="http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/Variety-Purple-Haze/player_bg_bot.gif" border="0"></td>
+						</tr>
+						
+						
+							<tr><td>
+									<div id="playerTransportDivIcons" class="footer bg_trans" style="display:none;position:fixed;width:281px;">
+										<a href="javascript:{}" onClick="javascript:playerDspToggle();">Full Player & More Features</a>
+										<a href="javascript:{}" onClick="javascript:playerDspToggle();"><img src="http://www.karisanmedia.com/media-player/graphics/shell/expand.png" width="24" height="24" align="middle" border="0"></a>
+										<a href="javascript:{}" onClick="javascript:playerDspToggle();">Click Here</a>
+									</div>
+								</td>
+							</tr>
+						
+									
+								</table>
+							</div>
+                          
+						  <div class="player_right_top">
+								<div id="bannerB"><img src="http://www.karisanmedia.com/media-player/graphics/media-player-ad.png" width="400" height="200" /></div><div id="albumArtDsp" style="display:none;"></div>
+							</div>
+                            
+							
+
+							
+								<span style="display:none;">
+									<div id="bannerSpanSL" style="display:none;">
+										<span id="bannerS" style="display:none;"></span>
+										<span id="bannerL" style="display:none;"></span>
+						  </div>						
+									
+								</span>
+
+							
+
+						</div>
+					</td>
+				</tr>
+
+				
+				<tr>
+					<td colspan="5" align="center" valign="top" class="footer"><div class="bg_trans">
+							<center>
+								<table border="0" cellspacing="0" cellpadding="0">
+									<tr>
+										
+											<td>
+												<img src="http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/Variety-Purple-Haze/dot_blank.gif" width="20" height="1">
+												<!-- 
+												<a id="various1" href="http://radio.securenetsystems.net/radio_player_large.cfm?stationCallSign=KARISAN#chatDiv"><img src="http://www.karisanmedia.com/media-player/graphics/shell/chat.png" width="24" height="24" align="middle" border="0"></a>
+												<a id="various2" href="http://radio.securenetsystems.net/radio_player_large.cfm?stationCallSign=KARISAN#chatDiv">Chat</a>
+												-->
+												<a id="various1" href="javascript:{}" onClick="window.open('http://www.karisanmedia.com/chat/Live/index.php','chat', 'Width=832,Height=474,directories=0,hotkeys=0,location=0,menubar=0,personalbar=0,resizable=0,scrollbars=0,status=0,toolbar=0');"><img src="http://www.karisanmedia.com/media-player/graphics/shell/chat.png" width="28" height="28" align="middle" border="0"></a>
+												<a id="various2" href="javascript:{}" onClick="window.open('http://www.karisanmedia.com/chat/Live/index.php','chat', 'Width=832,Height=474,directories=0,hotkeys=0,location=0,menubar=0,personalbar=0,resizable=0,scrollbars=0,status=0,toolbar=0');"><span id="chatID" style="font-size:20px;">Chat</span></a>
+											</td>
+										
+										<td>
+											<img src="http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/Variety-Purple-Haze/dot_blank.gif" width="20" height="1">
+										</td>
+										
+											<td>
+												<img src="http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/Variety-Purple-Haze/dot_blank.gif" width="20" height="1">
+												<!--
+												<a href="javascript:{}" onClick="javascript:playerDspToggle();"><img src="http://www.karisanmedia.com/media-player/graphics/shell/expand.png" width="24" height="24" align="middle" border="0"></a>
+												<a href="javascript:{}" onClick="javascript:playerDspToggle();">Minimize</a>
+												-->
+											</td>
+										
+										<td>
+											<img src="http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/Variety-Purple-Haze/dot_blank.gif" width="20" height="1">
+										</td>
+										
+											<td>
+												<img src="http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/Variety-Purple-Haze/dot_blank.gif" width="20" height="1">
+												
+											</td>
+										
+									</tr>
+								</table>
+							</center>
+</div></td>
+				</tr>
+				
+
+			</table>
+
+
+		
+			
+
+			
+			<span style="display:none;">
+				<img src="http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/Variety-Purple-Haze/dot_blank.gif" id="filePlayCountUpdate" width="1" height="1">
+				
+					<img src="http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/Variety-Purple-Haze/dot_blank.gif" id="bannerImpressionCountS" width="1" height="1">
+				
+					<img src="http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/Variety-Purple-Haze/dot_blank.gif" id="bannerImpressionCountL" width="1" height="1">
+				
+					<img src="http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/Variety-Purple-Haze/dot_blank.gif" id="bannerImpressionCountX" width="1" height="1">
+				
+					<img src="http://www.karisanmedia.com/media-player/file_radio/v3/skins/skin_files/Variety-Purple-Haze/dot_blank.gif" id="bannerImpressionCountB" width="1" height="1">
+				
+			</span>
+			
+
+			
+
+			
+			
+
+	
+	<div id="playerDiv" style="width:1px; height:1px; position: absolute; left: 0px; top: 0px;"> </div>
+	
+
+	<script language="JavaScript" type="text/javascript" src="http://www.karisanmedia.com/media-player/v3/radio_player_large_scripts_flash_initialize.js"></script>
+
+	
+	<script type='text/javascript'>
+	<!--
+
+		var mPlayerDiv = document.getElementById('playerDiv');
+		var mPlayerDivMessage = document.getElementById('playerDivMessage');
+
+		var so = new SWFObject('v3/radio_player_large_flash_player.swf','ply','100%','100%','9');
+		so.addParam('allowfullscreen','false');
+		so.addParam('allowscriptaccess','always');
+		so.addParam('wmode','opaque');
+		so.addVariable('autostart','true');
+		
+			so.addVariable('file','http://ice3.securenetsystems.net:80/KARISAN?type=.flv');
+		
+		so.addVariable('duration','-1');
+		so.addVariable('controlbar','none');
+
+	//-->
+	</script>
+	
+
+
+			
+
+		</body>
+
+	
+
+</html>
+

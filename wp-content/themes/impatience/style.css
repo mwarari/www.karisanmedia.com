@@ -1,0 +1,111 @@
+/* 
+---------------------------------------
+Theme Name: Impatience
+Theme URL: http://alexwelch.com/impatience
+Description: A quick minamilist them see: <a href='http://www.alexwelch.com/impatience'>impatience page</a> for more info.
+Author: Alex Welch
+Author URI: http://alexwelch.com
+Version: 1.2
+Tags: dark, light, two-columns, fixed-width
+
+	Released under GPL:
+	http://www.opensource.org/licenses/gpl-license.php
+---------------------------------------
+
+*/
+
+/*	Basic Tags
+---------------------------------------- */
+h3 {
+	display: block;
+	font-size: 14px;
+	font-weight: bold !important;
+	padding: 5px 0 !important;
+	margin-bottom: 5px !important;
+/*	border-bottom: #ccc 1px solid !important;*/
+}
+
+/* Special Classes 
+---------------------------------------------------------- */
+.hidden {
+	display: none;
+}
+.alignright {
+	float: right;
+	}
+
+.alignleft {
+	float: left
+	}
+.aligncenter {
+	text-align: center;
+	margin: 0 auto;
+}
+.force_break { clear: both;}
+
+.postnavigation {
+	font-size: 12px;
+	text-align: center;
+	clear: both;
+}
+.postnavigation a {
+	text-decoration: none;
+}
+
+/*	SITE STRUCTURE
+--------------------------------------- */
+div#tip_top_nav {
+	float: right;
+	font-size: 12px;
+	font-family: Helvetica, Arial;	
+}
+/*#tip_top_nav ul {
+	display: none;
+	position: absolute;
+}
+#tip_top_nav:hover ul {
+	display: block;
+}*/
+	#tip_top_nav li {
+		float: left;
+		padding: 5px;
+	}
+		#tip_top_nav a {
+			display: block;			
+			text-decoration: none;	
+			font-weight: bold;	
+			font-style: italic;	
+		}
+		#tip_top_nav li.dark a {
+			color: #000;
+		}
+		#tip_top_nav li.light a {
+			color: #fff;
+		}
+
+/* WIDGET STYLING 
+---------------------------------------------------------- */
+li.big_link a {
+	display: block;
+	padding: 10px;
+	font-weight: bold;	
+}
+.widget_ilastfm ul li {
+	margin-bottom: 10px !important;
+}
+.widget_ilastfm .lastfm_album,
+.widget_ilastfm .lastfm_playcount,
+.widget_ilastfm .lastfm_date {
+	display: none;
+}
+.widget_ilastfm li.lastfm_userlink {
+	text-align: right;
+	font-style: italic;
+	font-weight: bold;
+}
+.widget_ilastfm a {
+	text-decoration: none !important;
+}
+.widget_ilastfm .lastfm_artist {
+	font-weight: bold;
+}

@@ -1,0 +1,182 @@
+/* Based partially on Matthew Carroll's keyboard accessible flavor of Suckerfish 
+ * Dropdowns by Patrick Griffiths and Dan Webb. 
+ * http://carroll.org.uk/sandbox/suckerfish/bones2.html
+ */
+
+/* ----[ LINKS ]----*/
+
+/* all menu links */
+#nav a, #subMenusContainer a{
+	text-decoration:none;
+	display:block;
+	padding: 3px 20px;
+}
+
+/* Just main menu links --[for non-javascript users this applies to submenu links as well]*/
+#nav
+{
+    width:800px;
+	margin: 18px 18px 0px 30px;	
+}
+#nav a{
+    display:block;
+    color:#FFF;
+    text-decoration:none;
+    padding: 6px 0px 5px 0px;
+}
+#nav ul
+{
+    position:absolute;
+    left:-999em;
+    height:auto;
+    font-weight:normal;
+	float: left;
+	display: block;
+    margin:0;
+    line-height:1;
+	width:130px;
+}
+#nav li
+{
+	clear: none!important;
+	font: bold 11px Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	list-style: none;
+	float: left;
+	display: block;
+	padding: 0px 8px;
+}
+
+#nav li li {
+	font: bold 11px Arial, Helvetica, sans-serif;
+	padding: 0px;
+    }
+#nav li li a {
+    /*width:160px;*/
+    padding:4px 10px;
+    font-size:12px;
+    color:#FFF;
+	display: block;
+	width: 110px;
+    }
+
+#nav li li a:hover
+{
+	background:#9C1F1B;
+}
+
+
+#nav li ul ul, #nav li ul
+{
+    /*margin:-21px 0 0 110px;*/
+	top: 0px;
+	margin-left: 130px;
+	display: none;
+	left: 0;
+    }
+#nav li li:hover {
+    background:#9C1F1B;
+    }
+#nav li ul li:hover a, #nav li ul li li:hover a, #nav li ul li li li:hover a, #nav li ul li li li:hover a {
+    color:#dddddd;
+    }
+#nav li:hover a, #nav li.sfhover a {
+    color:#dddddd;
+    }
+#nav li:hover li a, #nav li li:hover li a, #nav li li li:hover li a, #nav li li li li:hover li a {
+    color:#dddddd;
+    }
+#nav li:hover ul ul, #nav li:hover ul ul ul, #nav li:hover ul ul ul ul, #nav li.sfhover ul ul, #nav li.sfhover ul ul ul, #nav li.sfhover ul ul ul ul {
+    left:-999em;
+    }
+#nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li li li li:hover ul, #nav li.sfhover ul, #nav li li.sfhover ul, #nav li li li.sfhover ul, #nav li li li li.sfhover ul {
+    left:auto;
+    /*background:#00FF33;*/
+	background: url(../images/sub-nav_bg.jpg) repeat-y left;
+    }
+#nav li:hover, #nav li.sfhover {
+    /*background: url(../images/nav-hover.png) no-repeat center bottom;*/
+    }
+
+/* Just sub menu links */
+#subMenusContainer a, #nav li li a{
+	text-align:left;
+	left: 0px;
+	color: #FFFFFF;
+}
+
+/* All menu links on hover or focus */
+#nav a:hover, #nav a:focus, #subMenusContainer a:hover, #subMenusContainer a:focus, #nav a.mainMenuParentBtnFocused, #subMenusContainer a.subMenuParentBtnFocused{
+    background: none;
+	color:#FFF;
+}
+
+/* sub menu links on hover or focus */
+#subMenusContainer a:hover, 
+#subMenusContainer a:focus, 
+#nav a.mainMenuParentBtnFocused, 
+#subMenusContainer a.subMenuParentBtnFocused,
+#nav li a:hover,
+#nav li a:focus{
+	color: #FFFFFF;
+	background-color: #B93400;
+}
+#subMenusContainer a:hover, 
+#subMenusContainer a:focus, 
+#nav a.mainMenuParentBtnFocused, 
+#subMenusContainer a.subMenuParentBtnFocused,
+#nav li a:focus{
+ 	color: #EBE648;
+}
+#subMenusContainer ul li a:hover
+{
+    background-color: #B93400;
+	color: #FFFFFF;
+}
+
+/* Submenu Outer Wrapper - each submenu is inside a div with this class - javascript users only */
+.smOW{ 
+	display:none; 
+	position: absolute; 
+	overflow:hidden; 
+	/*the 2px left & right padding lets you have a 1px border 
+	  on the ul or ol inside since overflow is set to hidden*/
+	padding:0 2px;
+	margin:0 0 0 -2px;
+}
+
+
+/* All ULs and OLs */
+/* All submenu OLs and ULs */
+#nav ol, #nav ul, #subMenusContainer ul, #subMenusContainer ol {	
+	/*border around submenu goes here*/	 
+/*	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+*/	border:1px solid #AF3400;
+	left:0;
+	background: rgb(216, 66, 0);
+	font: bold 11px Arial, Helvetica, sans-serif;
+
+}
+
+
+/* List items in main menu --[for non-javascript users this applies to submenus as well]  */
+#nav li { 
+	/*great place to use a background image as a divider*/
+	display:block;
+	list-style:none;
+	position:relative;
+	float:left;
+}
+
+#subMenusContainer li{
+	list-style: none;
+	
+}
+
+/* main menu ul or ol elment */
+#subMenusContainer{	display:block; 	position:absolute;	top:0;	left:0;	width:100%;	height:0;	overflow:visible;	z-index:1000000000; 
+}
+
+
+/* --------------------------[ The below is just for non-javscript users ]--------------------------*/

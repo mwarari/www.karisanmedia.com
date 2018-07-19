@@ -1,0 +1,73 @@
+<settings>
+  <General_Properties>
+    <!-- <width value="768"/> -->
+	<width value="868"/>
+    <height value="100"/>
+    <backAlpha value="1"/>
+    <backColor value="0x000000"/>
+    <items value="8"/>
+    <spacing value="10"/>
+    <simultanSlides value="1"/>
+    <preloader value="preloaders/redsquares.swf"/>
+    <pictures value="images.xml"/>
+    <showAbout value="false"/>
+  </General_Properties>
+  <Item_Properties>
+    <width value="100"/>
+    <height value="100"/>
+    <backColor1 value="0x333333"/>
+    <backColor2 value="0x444444"/>
+    <backAlpha1 value="0.2"/>
+    <backAlpha2 value="1"/>
+    <backPadding value="2"/>
+  </Item_Properties>
+  <Reflection_Properties>
+    <useReflection value="false"/>
+    <alpha value="0.4"/>
+    <ratio value="47.8"/>
+    <distance value="3.2"/>
+  </Reflection_Properties>
+  <Animation_Properties>
+    <func value="Cubic"/>
+    <method value="easeInOut"/>
+    <duration value="1.1"/>
+    <blurAmount value="30"/>
+  </Animation_Properties>
+  <Image_Properties>
+    <width value="100"/>
+    <height value="100"/>
+    <showBorder value="true"/>
+    <borderThickness value="2.9"/>
+    <borderTweenTime value="1.2"/>
+    <borderColor value="0x000000"/>
+    <selBorderColor value="0xffffff"/>
+  </Image_Properties>
+  <Arrow_Properties>
+    <arrowsX value="0"/>
+    <arrowsY value="30"/>
+    <distance value="830"/>
+    <!-- <arrowsSkin value="assets/slide-bright.png"/> -->
+	<arrowsSkin value="assets/play.gif"/>
+  </Arrow_Properties>
+  <AutoPlay_Properties>
+    <showPlay value="true"/>
+    <autoPlay value="true"/>
+    <slideShowTime value="4.5"/>
+    <btnX value="0"/>
+    <btnY value="60"/>
+    <playBtn value="assets/autoPlay/play1.png"/>
+    <pauseBtn value="assets/autoPlay/pause1.png"/>
+  </AutoPlay_Properties>
+  <Scroller_Properties>
+    <width value="3"/>
+    <backColor value="0x000000"/>
+    <barColor value="0xFFFFFF"/>
+  </Scroller_Properties>
+  <Text_Properties>
+    <cssFile value="assets/css/textStyle.css"/>
+    <width value="111"/>
+    <height value="57"/>
+    <selectable value="true"/>
+	<embedFonts value="false"/>
+  </Text_Properties>
+</settings>

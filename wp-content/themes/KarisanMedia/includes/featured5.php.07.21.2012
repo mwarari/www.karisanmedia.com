@@ -1,0 +1,108 @@
+<!-- featured5.php -->
+<?php
+global $themeoptionsprefix;
+if(get_option($themeoptionsprefix.'_alternatecropper') == '1'){
+    $cropperfile="cropper.php";
+}elseif(get_option($themeoptionsprefix.'_alternatecropper') == '2'){
+    $cropperfile="cropper-alt.php";
+}
+?>
+<div>
+    <a href="http://www.asapphirephoto.com/" target="_blank"><img src="http://www.karisanmedia.com/adverts/asapphirephotosmalladd.png" width="260" height="91"/></a> 
+</div>
+<div>
+
+										<object classid='clsid:D27CDB6E-AE6D-11cf-96B8-444553540000' 
+												id='advertplayer' 
+												name='advertplayer'
+												width='260'
+												height='173'>
+												<param name='movie' value='/adverts/player.swf'>
+												<param name='allowfullscreen' value='true'>
+												<param name='allowscriptaccess' value='always'>
+												<param name='bgcolor' value='ffffff'>
+												<param name='wmode' value='opaque'>
+												<param name='screencolor' value='000000'>
+												<param name='flashvars' value='file=/adverts/AsapphirePhoto1.flv&autostart=false&repeat=always&controlbar.position=bottom&stretching=exactfit&screencolor=#000000&image=/adverts/asapphirephotofirstframe.jpg'>
+												<embed
+												  id='mediaplayer1'
+												  name='mediaplayer2'
+												  src='adverts/player.swf'
+												  width='260'
+												  height='173'
+												  allowfullscreen='true'
+												  allowscriptaccess='always'
+												  bgcolor='000000'
+												  screencolor='000000'
+												  wmode='opaque'
+												  flashvars='file=/adverts/AsapphirePhoto1.flv&autostart=false&repeat=always&controlbar.position=bottom&stretching=exactfit&screencolor=#000000&image=/adverts/asapphirephotofirstframe.jpg'
+												/>
+										</object>
+										
+</div>
+<div>
+	<a href="http://www.kensheet.com/" target="_blank"><img src="http://www.karisanmedia.com/adverts/KensheetLogo2.png" width="260" height="91"/></a> 
+</div>
+<div>
+
+										<object classid='clsid:D27CDB6E-AE6D-11cf-96B8-444553540000' 
+												id='advertplayer' 
+												name='advertplayer'
+												width='260'
+												height='173'>
+												<param name='movie' value='/adverts/player.swf'>
+												<param name='allowfullscreen' value='true'>
+												<param name='allowscriptaccess' value='always'>
+												<param name='bgcolor' value='ffffff'>
+												<param name='wmode' value='opaque'>
+												<param name='screencolor' value='000000'>
+												<param name='flashvars' value='file=/adverts/Kensheet3.flv&autostart=false&repeat=always&controlbar.position=bottom&stretching=exactfit&screencolor=#000000&image=/adverts/Kensheet3.jpg'>
+												<embed
+												  id='mediaplayer1'
+												  name='mediaplayer2'
+												  src='adverts/player.swf'
+												  width='260'
+												  height='173'
+												  allowfullscreen='true'
+												  allowscriptaccess='always'
+												  bgcolor='000000'
+												  screencolor='000000'
+												  wmode='opaque'
+												  flashvars='file=/adverts/Kensheet3.flv&autostart=false&repeat=always&controlbar.position=bottom&stretching=exactfit&screencolor=#000000&image=/adverts/Kensheet3.jpg'
+												/>
+										</object>
+										
+</div>
+<div>
+    <a href="http://www.mwakilishi.com//" target="_blank"><img src="http://www.karisanmedia.com/adverts/mwakilishi.png" width=260" height="66"/></a> 
+</div>
+<!--
+<div>
+	<a href="" target="_blank"><img src="http://www.karisanmedia.com/adverts/EastAfricaChamberOfCommerce.jpg" width="260" height="416"/></a> 
+</div>
+
+<h2>Our Friends</h2>
+<div>
+    <a href="http://www.jambonewspot.com/">
+            <span style="color: #000000;">
+                    <img class="alignleft size-full wp-image-66" title="jambonewspot" src="http://www.karisanmedia.com/wp-content/uploads/2010/03/jambonewspot1.jpg" alt="" width="160" height="102" />
+            </span>
+    </a>
+    <a href="http://www.jambonewspot.com/">
+            <span style="color: #0000ff;">http://www.jambonewspot.com/</span>
+    </a>
+</div>
+-->
+<!-- Added 06/23/2011 - MMM -->
+<!--
+<div>
+    <div id="fb-root"></div>
+    <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
+    <fb:like-box href="http://www.facebook.com/pages/Karisan-Media-Productions/124137670931034" width="242" show_faces="true" border_color="" stream="false" header="false" height="430"></fb:like-box>
+</div>
+-->
+<div>
+
+
+
+

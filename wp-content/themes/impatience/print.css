@@ -1,0 +1,514 @@
+/* 
+---------------------------------------
+Print Stylesheet - similar to light scheme
+---------------------------------------
+
+COLORS
+---------------------------------------
+#1F2B31 - really dark blue
+#3C5D80 - dark blue
+#333 - dark grey
+---------------------------------------
+
+3 COLUMN LAYOUT
+---------------------------------------
+inner margins = 20px
+1 col = 310px 
+2 cols = 640px
+3 cols = 970px
+---------------------------------------
+
+*/
+
+@import url(reset.css);
+
+/*	BASIC ELEMENTS
+--------------------------------------- */
+body {
+	text-align: center; /* for old IE */
+	font-family: "Trebuchet MS", "MS Trebuchet", Trebuchet;
+	color: #000;
+}
+
+abbr {
+	border-bottom: #000 1px dotted;
+	cursor: help;
+}
+
+code {
+	font: normal 11px Georgia "Times New Roman", Times;
+	line-height: 15px;
+	padding: 10px;
+	display: block;
+	color: #000;
+}
+p {
+	padding: .5em 0;
+}
+a {
+	color: #000;
+}
+h3 {
+	font-size: 14pt;
+}
+h2.content_title {
+	font: italic 15pt helvetica;
+	margin: 0 0 15px 0;
+/*	border-bottom: #26272a 1px solid ;*/
+}
+/*	SPECIAL CLASSES
+---------------------------------------- */
+/* see style.css */
+
+/*	SITE STRUCTURE AND LAYOUT
+---------------------------------------- */
+div#wrap {
+	width: 970px;
+	text-align: left;
+	margin: 0 auto;
+}
+	div#header {		
+		
+	}
+		#tip_top_nav {
+			display: none;
+		}
+		#header h1 a {
+			text-decoration: none;
+			padding: 15px 0 8px;
+			display: block;
+			letter-spacing: .05em;
+			font-size: 30pt;
+			color: #3C5D80;
+		}
+		#header h5 {
+			color: #333;
+		}
+	div#top_nav {
+		float: right;
+		margin-bottom: -3px;
+		margin-top: -15px;
+	}
+		#top_nav ul li {
+			float: left;
+		}
+			#top_nav ul li a {
+				display: block;
+				padding: 12pt 16px;				
+				text-decoration: none;
+				border-top: #fff 3px solid ;/* so it doesnt change layout*/
+				color: #1F2B31;
+			}
+			#top_nav ul li.current_page_item a {
+				border: #3C5D80 3px solid;
+				border-bottom: #fff 3px solid;
+/*				background-color: #3C5D80;
+				color: #fff !important;*/
+			}
+			#top_nav ul li a:hover,
+			#top_nav ul li.current_page_item a {
+				color: #3C5D80;
+
+			}
+
+	div#middle {
+		clear: both;
+		border-top: #3C5D80 3px solid;
+		border-bottom: none;
+		padding: 10px 0;
+	}
+		div#sub_nav {
+			margin-top: -10px;
+		}	
+			#sub_nav ul li {
+				float: left;
+			}
+				#sub_nav ul li a {					
+					display: block;
+					margin: 0 0 15px 0;
+					padding: 10px;
+					text-decoration: none;
+					border-bottom: #fff 3px solid;
+					font: normal 16px "Trebuchet MS";					
+				}
+				#sub_nav a:hover {
+					border-bottom: #3C5D80 3px solid;					
+				}
+				#sub_nav ul li.current-cat a {
+					background-color: #3C5D80;
+					color: #fff;
+				}
+		div#right_col {
+			width: 310px;
+			margin-right: 0;
+			float: right;
+			z-index: 100;
+			position: relative;
+		}
+			#searchform input {
+				border: #3C5D80 1px solid;
+				padding: 3px 0;
+			}
+			#searchform input.textInput {
+				width: 272px;
+				border-right-width: 0;
+				float: left;
+				padding: 4px 0 4px 5px;
+				background-color: #fff;
+				color: #000;
+				font: normal 13px Helvetica;
+			}
+			#searchform input.default {
+				font-style: italic;
+			}
+			#searchform input.textInput:focus {
+				color: #fff;
+				background-color: #fff;
+				font-style: normal;								
+			}
+			#searchform input.submitInput {				
+				float: left;
+				width: 30px;
+				background-color: #3C5D80;
+				color: #fff;
+			}			
+			#right_col ul li,
+			#sub_footer ul li {
+/*				border: #5e6168 1px solid;*/
+				margin-bottom: 40px;
+				clear: both;
+				font-size: 12pt;
+				line-height: 18pt;
+			}
+			#right_col ul li.search-form,
+			#right_col ul li.widget_search,
+			#right_col ul li.toggle_sidebar {
+				float: left;
+				margin-bottom: 12pt;
+				border: none;
+				float: right;
+				clear: none;
+			}
+			#right_col ul li.toggle_sidebar {
+				display: none; /*this was the little icon that toggled the sidebar - decided it was dumb */
+			}
+				#right_col ul li.toggle_sidebar a {
+					padding: 3px;	
+					width: 30px;
+					text-align: center;
+					text-decoration: none;
+					display: block;
+					margin-left: 10px;
+				}
+				#right_col ul li ul li,
+				#sub_footer  ul li ul li {
+					margin-bottom: 0;
+					background-color: none;
+					border: none;
+					line-height: 20pt;
+					font-size: 13pt;					
+				}
+					#right_col ul li a,
+					#sub_footer ul li a {
+					
+					}
+				#right_col ul li ul,
+				#right_col ul li p,
+				#sub_footer ul li ul,
+				#sub_footer ul li p {
+					padding: 10px;
+				}
+			#right_col ul li h2,
+			#sub_footer ul li h2 {
+				font-size: 15pt;
+				color: #3C5D80;
+				padding: 5px 0;
+				border-bottom: #3C5D80 1px solid;
+				margin: 0;
+				font-weight: bold;
+				font-style: italic;
+			}
+		div#content {
+			z-index: 50;
+			position: relative;
+			clear: left;
+			width: 640px;
+			float: left;
+		}
+		div.wide_content {
+			width: 940px !important;
+		}
+	div#sub_footer {
+		padding-top: 20px;
+	}
+		#sub_footer div.widgets {
+			width: 310px;
+			float: left;			
+		}
+		#sub_footer div#sub_footer_center {
+			margin-left: 20px;
+			margin-right: 20px;
+		}
+	div#footer {
+		display: none;
+	}
+		#footer a {			
+			text-decoration: none;
+			font-weight: bold;
+		}
+
+/* WIDGET STYLING 
+---------------------------------------------------------- */
+li.widget_tag_cloud {
+	background: none !important;
+	border: none !important;
+}
+	.widget_tag_cloud h2 {
+		margin-bottom: 10px !important;
+	}
+	.widget_tag_cloud a {
+		text-decoration: none;
+	}
+	.widget_tag_cloud a:hover {
+		
+	}
+.textwidget ul {
+	padding: 0 !important;
+	margin: none !important;
+}
+.textwidget ul li {
+	padding: 15px 22px;
+}
+.textwidget ul li.alt {
+/*		background-color: #f3f3f3 !important;*/
+		border: #ebebeb 1px solid !important;	
+		border-width: 1px 0 !important;
+}
+.textwidget img {
+	display: block;
+}
+
+.widget_flickr ul {
+	padding: 10px 0 0 10px !important;
+}
+.widget_flickr ul li{	
+	border: #0063dc 5px solid !important;
+	float: left !important;
+	margin: 0 10px 10px 0 !important;
+	width: 130px;
+	height: 90px;
+	overflow: hidden;
+	clear: none !important;
+}
+.widget_flickr ul li:hover {
+	border-color: #ff0084 !important;
+}
+.widget_flickr ul li a {
+	display: block;
+}
+.widget_flickr ul li img {
+	display: block !important;	
+	width: 135px;
+	margin-bottom: 6px;
+}
+.widget_flickr ul li a:hover img {
+	border-color: #fff !important;
+}
+.widget_flickr h5 a {
+	text-align: right;
+	font-size: 14pt;
+	text-decoration: none;
+	margin: 0 10px 10px 0;
+	color: #0063dc !important;
+	display: block;
+	letter-spacing: .05em;
+	font-weight: bold	;
+}
+	.widget_flickr h5 a em {
+		color: #ff0084 !important;
+	}
+	
+li.widget_Twidget {
+	background: none !important;
+	border: 0 !important;
+}
+.widget_Twidget ul {
+	padding: 0 !important;
+}
+	.widget_Twidget ul li span {
+		display: block;
+		padding: 10px 10px 10px 50px;
+/*		border-top: #ebebeb 1px solid;*/
+		margin-top: 10px !important;
+		background: url(images/twitter_t_light.gif) no-repeat left;
+	}
+	.widget_Twidget span a {
+		background: none !important;
+		display: inline !important;
+		padding: 0 !important;
+	}
+	.widget_Twidget a {
+		display: block !important;
+		font-size: 12pt;
+		text-decoration: none;
+		font-weight: bold;
+		text-align: right;
+		padding: 2px 10px 1px 0;
+		background-color: #ebebeb;
+	}
+
+/* POST SPECIFIC STUFF
+---------------------------------------------------------- */
+div.post {
+	clear: left;
+	margin-bottom: 60px;	
+}
+	.post h2 {
+		font-size: 16pt;
+		padding: 12pt 0 8px;		
+		font-style: italic;
+		border-bottom: #3C5D80 1px solid;
+	}
+		.post h2 a {
+			color: #1F2B31;
+			letter-spacing: .05em;
+			text-decoration: none;
+		}
+		.post h2 em {
+			font-size: 14pt;
+		}
+		.post h2 em.comment_link a {
+			float: right;
+			font-size: 12pt;			
+			font-style: normal;
+		}
+	div.postcontent {
+		padding: 15px 12pt;
+		line-height: 20pt;
+		font-size: 14pt;
+	}
+		.postcontent ul {
+			margin-bottom: 15px;
+		}
+	.postcontent img {
+		max-width: 600px;
+	}
+	div.postmeta {
+/*		border-top: #3C5D80 1px solid;*/
+		text-align: left;
+		padding: 10px;
+		font-size: 11pt;
+		background-color: #efefef;
+	}
+		.postmeta ul li {
+			display: inline;
+			margin-right: 10px;
+		}
+		.postmeta em {
+			font-weight: bold;
+		}
+		.postmeta a {
+			text-decoration: none;			
+			font-style: italic;
+		}
+		.postmeta a:hover {
+			text-decoration: underline;
+		}
+
+/* Comments */
+div#comments {
+
+}
+#comments h4 {
+	border-bottom: #3C5D80 1px solid;
+	font-size: 16pt;
+	color: #3C5D80;
+	padding: 4px 5px 16px 10px;
+	margin: 0;
+	font-weight: bold;
+	font-style: italic;
+}
+ol#commentlist li {
+	margin-bottom: 5px;
+	padding: 10px;
+	font-size: 12pt;
+	line-height: 18pt;
+	border-bottom: #ebebeb 1px solid;
+}
+#commentlist img.avatar {
+	float: right;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+#commentlist li.standard {
+/*	background-color: #26272a;*/
+}
+#commentlist li.author {
+
+}
+#commentlist li.author div.singlecomment,
+#commentlist li.author div.singlecomment a {	
+	color: #3C5D80;
+}
+#commentlist div.singlecomment {
+	font: italic 11px helvetica;
+	text-align: right	;
+	margin-top: 10px;
+	clear: both;
+}
+	#comments div.notes {
+		float: right;
+		width: 200px;
+	}	
+	#comments h5 {
+		margin: 0 0 5px;
+	}
+	#commentlist div.singlecomment a {
+		color: #1F2B31;
+	}
+	div#commentsform {
+		
+	}
+		#comments dl {
+			width: 400px;
+			border-right: #3C5D80 1px solid;
+		}
+		#comments dt {
+			font-size: 12pt;
+			font-weight: bold;	
+		}
+		#comments dt.top {
+			margin-top: 15px;
+		}
+		#comments dd, dt.single {
+			padding: 2px 0 15px;
+		}
+			#comments textarea,
+			#comments input.textInput {
+				width: 380px;
+				padding: 2px;
+				color: #5e6168;
+				background-color: #efefef;
+				border: #e1e1e1 1px solid;
+			}
+			#comments textarea.focus,
+			#comments input.textInput.focus {
+				background-color: #fbfbfb;
+				color: #000;
+				border-color: #ebebeb;
+			}
+			#comments .button-group input {
+				border: #ebebeb 1px solid;
+				padding: 5px;
+				cursor: pointer;
+				background-color: #3C5D80;
+				color: #fff;
+				text-transform: uppercase;
+				font-weight: bold;
+			}
+			#comments .button-group input:hover {
+				border: #1F2B31 1px solid;
+			}
+	#comments a {
+		color: #5e6168;
+	}

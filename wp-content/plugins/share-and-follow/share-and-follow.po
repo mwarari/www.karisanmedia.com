@@ -1,0 +1,757 @@
+# Translation of the WordPress plugin Share and Follow 1.11.6 by Andy Killen.
+# Copyright (C) 2010 Andy Killen
+# This file is distributed under the same license as the Share and Follow package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Share and Follow 1.11.6\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/share-and-follow\n"
+"POT-Creation-Date: 2010-04-20 15:42+0000\n"
+"PO-Revision-Date: 2010-04-20 17:43+0100\n"
+"Last-Translator: Andy <andy@phat-reaction.com>\n"
+"Language-Team: phat reaction <andy@phat-reaction.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+
+#: admin-page.php:119
+msgid "Settings Updated."
+msgstr ""
+
+#: admin-page.php:122
+msgid "if your feeling lovely and really like this plug-in, do the right thing and buy us some beer.  It&#39;s usually &euro;4.50 here in Amsterdam for a pint, and we will give you a link from"
+msgstr ""
+
+#: admin-page.php:131
+msgid "Share and Follow Administration"
+msgstr ""
+
+#: admin-page.php:132
+msgid "Here you can administer either the Follow Tab, or the Share Links on a Post.  If you want to admin the sidebar widget,  you need to goto the "
+msgstr ""
+
+#: admin-page.php:132
+msgid "widgets section."
+msgstr ""
+
+#: admin-page.php:132
+msgid " However for the Follow widget to work with anything except RSS you will have to fill out the details below in the "
+msgstr ""
+
+#: admin-page.php:132
+msgid "follow section"
+msgstr ""
+
+#: admin-page.php:133
+msgid "More"
+msgstr ""
+
+#: admin-page.php:133
+msgid "documentation"
+msgstr ""
+
+#: admin-page.php:133
+msgid " on how to use this plugin and it&#39;s options &#40;Share Widget, Follow Widget, Share on Posts, Shortcode in Post, Follow Tab, Theme Tags&#41;"
+msgstr ""
+
+#: admin-page.php:154
+#: follow-widget.php:193
+msgid "Share Icons Setup"
+msgstr ""
+
+#: admin-page.php:155
+msgid "Allow Share Icons to be added to the End of a Post?"
+msgstr ""
+
+#: admin-page.php:157
+msgid "Selecting &quot;No&quot; will disable the content from being added into the end of a post."
+msgstr ""
+
+#: admin-page.php:158
+#: admin-page.php:159
+#: admin-page.php:282
+#: admin-page.php:283
+#: admin-page.php:407
+#: admin-page.php:408
+#: admin-page.php:468
+#: admin-page.php:469
+msgid "checked=\"checked\""
+msgstr ""
+
+#: admin-page.php:158
+#: admin-page.php:282
+#: admin-page.php:407
+#: admin-page.php:468
+msgid "Yes"
+msgstr ""
+
+#: admin-page.php:159
+#: admin-page.php:283
+#: admin-page.php:408
+#: admin-page.php:469
+msgid "No"
+msgstr ""
+
+#: admin-page.php:160
+msgid "Where to show them"
+msgstr ""
+
+#: admin-page.php:161
+msgid "Choose where on your site the icons will be automatically added"
+msgstr ""
+
+#: admin-page.php:162
+msgid "pages"
+msgstr ""
+
+#: admin-page.php:163
+msgid "posts"
+msgstr ""
+
+#: admin-page.php:164
+msgid "home page"
+msgstr ""
+
+#: admin-page.php:165
+msgid "tags, archive or catagory page"
+msgstr ""
+
+#: admin-page.php:166
+msgid "Size of Share Icons on Posts"
+msgstr ""
+
+#: admin-page.php:174
+msgid "Share icons display style"
+msgstr ""
+
+#: admin-page.php:176
+#: admin-page.php:314
+#: follow-widget.php:186
+msgid "Icon and Text"
+msgstr ""
+
+#: admin-page.php:177
+#: admin-page.php:315
+#: follow-widget.php:187
+msgid "Text only"
+msgstr ""
+
+#: admin-page.php:178
+#: admin-page.php:317
+#: follow-widget.php:188
+msgid "Icon only"
+msgstr ""
+
+#: admin-page.php:180
+msgid "Spacing between elements (in px)"
+msgstr ""
+
+#: admin-page.php:194
+msgid "Show the word Share as a prefix to the list"
+msgstr ""
+
+#: admin-page.php:195
+#: functions.php:164
+msgid "share"
+msgstr ""
+
+#: admin-page.php:196
+msgid "Share Links  to display"
+msgstr ""
+
+#: admin-page.php:200
+#: admin-page.php:329
+#: follow-widget.php:204
+#: share-widget.php:189
+msgid "Show"
+msgstr ""
+
+#: admin-page.php:200
+#: follow-widget.php:204
+#: share-widget.php:189
+msgid "Link text"
+msgstr ""
+
+#: admin-page.php:275
+#: admin-page.php:399
+#: admin-page.php:462
+#: admin-page.php:473
+msgid "Update Settings"
+msgstr ""
+
+#: admin-page.php:279
+msgid "Follow Side/Top/Bottom Tab setup"
+msgstr ""
+
+#: admin-page.php:280
+msgid "Show the Follow Tab on Screen"
+msgstr ""
+
+#: admin-page.php:281
+msgid "Selecting \"No\" will disable the content from being added into to your website."
+msgstr ""
+
+#: admin-page.php:285
+msgid "Background Color"
+msgstr ""
+
+#: admin-page.php:287
+msgid "Transparent"
+msgstr ""
+
+#: admin-page.php:288
+msgid "Border Color"
+msgstr ""
+
+#: admin-page.php:290
+msgid "No Border"
+msgstr ""
+
+#: admin-page.php:292
+msgid "for example <b>#f60</b> is entered as <b>f60</b> or <b>#ff6600</b> becomes <b>ff6600</b>, clicking <b>Transparent</b> will make the tab have no color and <b>no border</b> will set the border to disapear"
+msgstr ""
+
+#: admin-page.php:293
+msgid "Follow Tab Location"
+msgstr ""
+
+#: admin-page.php:295
+msgid "Right"
+msgstr ""
+
+#: admin-page.php:296
+msgid "Left"
+msgstr ""
+
+#: admin-page.php:297
+msgid "Bottom"
+msgstr ""
+
+#: admin-page.php:298
+msgid "Top"
+msgstr ""
+
+#: admin-page.php:300
+msgid "Follow Word Color"
+msgstr ""
+
+#: admin-page.php:302
+msgid "Red"
+msgstr ""
+
+#: admin-page.php:303
+msgid "Pink"
+msgstr ""
+
+#: admin-page.php:304
+msgid "Blue"
+msgstr ""
+
+#: admin-page.php:305
+msgid "White"
+msgstr ""
+
+#: admin-page.php:310
+msgid "Black"
+msgstr ""
+
+#: admin-page.php:312
+msgid "Follow icons display style"
+msgstr ""
+
+#: admin-page.php:316
+msgid "Text replacement"
+msgstr ""
+
+#: admin-page.php:319
+msgid "Size of Follow Icons on tab"
+msgstr ""
+
+#: admin-page.php:327
+msgid "Follow Links  to display in the follow tab (also needed for follow widget)"
+msgstr ""
+
+#: admin-page.php:329
+msgid "Link Text"
+msgstr ""
+
+#: admin-page.php:329
+msgid "Link destination"
+msgstr ""
+
+#: admin-page.php:394
+msgid "this link is automatically setup to be your wordpress feed."
+msgstr ""
+
+#: admin-page.php:398
+msgid "Important"
+msgstr ""
+
+#: admin-page.php:398
+msgid "Always put in the full URL with http:// at the beginning when entering a Link Destination."
+msgstr ""
+
+#: admin-page.php:403
+msgid "Setup share image"
+msgstr ""
+
+#: admin-page.php:404
+msgid "By setting up a share image, social networks such as Facebook will choose that share image as its primary image to display on screen in news feeds inside facebook. This is especially useful if the theme is made of only image replacement images rather than HTML tag images, as facebook will now have the opportunity to show an image rather than none at all"
+msgstr ""
+
+#: admin-page.php:405
+msgid "Show Share Images"
+msgstr ""
+
+#: admin-page.php:406
+msgid "Add the share image metadata to the head section of your web pages.  Saying \"no\" will remove the functionality"
+msgstr ""
+
+#: admin-page.php:414
+msgid "Use default gravatar"
+msgstr ""
+
+#: admin-page.php:415
+msgid "Use author email to generate gravatar"
+msgstr ""
+
+#: admin-page.php:424
+#: admin-page.php:435
+msgid "Author Gravatar"
+msgstr ""
+
+#: admin-page.php:425
+#: admin-page.php:436
+#: admin-page.php:446
+#: admin-page.php:455
+msgid "Site Logo"
+msgstr ""
+
+#: admin-page.php:426
+msgid "Image from page"
+msgstr ""
+
+#: admin-page.php:437
+msgid "Image from post"
+msgstr ""
+
+#: admin-page.php:445
+#: admin-page.php:454
+msgid "Default Author Gravatar"
+msgstr ""
+
+#: admin-page.php:465
+msgid "CSS and style Configuration"
+msgstr ""
+
+#: admin-page.php:467
+msgid "This is useful if you want to style things yourself with CSS. The downside is that it make the page load times slightly slower. Anyhow, if you really need it, it loads"
+msgstr ""
+
+#: admin-page.php:470
+msgid "be careful as it reloads the CSS dynamically evey time there is a change to the admin screen"
+msgstr ""
+
+#: admin-page.php:471
+msgid "Add your own CSS"
+msgstr ""
+
+#: follow-widget.php:148
+#: functions.php:254
+msgid "Become a Fan"
+msgstr ""
+
+#: follow-widget.php:149
+#: functions.php:263
+#: share-and-follow.php:179
+msgid "See my photos"
+msgstr ""
+
+#: follow-widget.php:150
+#: functions.php:255
+#: share-and-follow.php:168
+msgid "Follow my Stumbles"
+msgstr ""
+
+#: follow-widget.php:151
+#: follow-widget.php:158
+#: functions.php:262
+#: functions.php:266
+#: share-and-follow.php:172
+#: share-and-follow.php:177
+msgid "Connect with me"
+msgstr ""
+
+#: follow-widget.php:152
+#: functions.php:256
+#: share-and-follow.php:167
+msgid "Tweet with me"
+msgstr ""
+
+#: follow-widget.php:153
+#: functions.php:257
+msgid "Subscribe to my Channel"
+msgstr ""
+
+#: follow-widget.php:154
+#: functions.php:258
+msgid "Become Hyves friends"
+msgstr ""
+
+#: follow-widget.php:155
+#: functions.php:259
+msgid "Become Orkut friends"
+msgstr ""
+
+#: follow-widget.php:156
+msgid "Become MySpace follower"
+msgstr ""
+
+#: follow-widget.php:157
+msgid "Read my reviews"
+msgstr ""
+
+#: follow-widget.php:159
+#: functions.php:265
+msgid "Join the conversation"
+msgstr ""
+
+#: follow-widget.php:160
+#: functions.php:264
+msgid "RSS feed"
+msgstr ""
+
+#: follow-widget.php:167
+#: share-widget.php:156
+msgid "Title"
+msgstr ""
+
+#: follow-widget.php:173
+#: share-widget.php:160
+msgid "Size"
+msgstr ""
+
+#: follow-widget.php:184
+#: share-widget.php:171
+msgid "Style"
+msgstr ""
+
+#: follow-widget.php:195
+#: share-widget.php:181
+msgid "list"
+msgstr ""
+
+#: follow-widget.php:196
+#: share-widget.php:182
+msgid "row"
+msgstr ""
+
+#: follow-widget.php:200
+#: share-widget.php:185
+msgid "icons to display"
+msgstr ""
+
+#: follow-widget.php:265
+msgid "Before a link will display, you must"
+msgstr ""
+
+#: follow-widget.php:265
+msgid "enter the link details in to the admin page"
+msgstr ""
+
+#: functions.php:32
+#: functions.php:60
+msgid "Recommend"
+msgstr ""
+
+#: functions.php:33
+#: functions.php:61
+msgid "Stumble uppon"
+msgstr ""
+
+#: functions.php:34
+#: functions.php:62
+msgid "Tweet"
+msgstr ""
+
+#: functions.php:35
+#: functions.php:63
+msgid "Bookmark"
+msgstr ""
+
+#: functions.php:36
+#: functions.php:64
+msgid "Digg"
+msgstr ""
+
+#: functions.php:37
+#: functions.php:39
+#: functions.php:40
+#: functions.php:65
+#: functions.php:67
+#: functions.php:68
+msgid "Share"
+msgstr ""
+
+#: functions.php:38
+#: functions.php:66
+msgid "Tip"
+msgstr ""
+
+#: functions.php:105
+#: share-and-follow.php:156
+#: share-widget.php:141
+msgid "Mixx it up"
+msgstr ""
+
+#: functions.php:106
+#: share-and-follow.php:157
+msgid "Recommend on Facebook"
+msgstr ""
+
+#: functions.php:107
+#: share-and-follow.php:159
+#: share-widget.php:142
+msgid "Share with Stumblers"
+msgstr ""
+
+#: functions.php:108
+#: functions.php:212
+#: functions.php:213
+#: share-widget.php:143
+msgid "Tweet this"
+msgstr ""
+
+#: functions.php:109
+#: share-and-follow.php:163
+#: share-widget.php:144
+msgid "Bookmark on Delicious"
+msgstr ""
+
+#: functions.php:110
+#: share-widget.php:145
+msgid "Digg this"
+msgstr ""
+
+#: functions.php:111
+#: share-widget.php:146
+msgid "Share on Reddit"
+msgstr ""
+
+#: functions.php:112
+#: share-and-follow.php:162
+#: share-widget.php:147
+msgid "Tip on Hyves"
+msgstr ""
+
+#: functions.php:113
+#: share-and-follow.php:164
+#: share-widget.php:148
+msgid "Share on Orkut"
+msgstr ""
+
+#: functions.php:114
+#: share-and-follow.php:165
+#: share-widget.php:149
+msgid "Share via MySpace"
+msgstr ""
+
+#: functions.php:115
+msgid "Follow this posts comments"
+msgstr ""
+
+#: functions.php:116
+#: share-and-follow.php:185
+#: share-widget.php:151
+msgid "Print for later"
+msgstr ""
+
+#: functions.php:117
+#: share-and-follow.php:181
+#: share-widget.php:150
+msgid "Tell a friend"
+msgstr ""
+
+#: functions.php:118
+msgid "Buzz up"
+msgstr ""
+
+#: functions.php:119
+#: functions.php:179
+#: functions.php:180
+#: functions.php:184
+#: functions.php:185
+#: share-widget.php:139
+msgid "Buzz it"
+msgstr ""
+
+#: functions.php:120
+msgid "Found this and thought of you..."
+msgstr ""
+
+#: functions.php:150
+msgid "Share this "
+msgstr ""
+
+#: functions.php:166
+#: functions.php:167
+msgid "Save on"
+msgstr ""
+
+#: functions.php:171
+#: functions.php:172
+#: functions.php:175
+#: functions.php:176
+msgid "this"
+msgstr ""
+
+#: functions.php:188
+#: functions.php:189
+msgid "Tip via"
+msgstr ""
+
+#: functions.php:192
+#: functions.php:193
+msgid "it up"
+msgstr ""
+
+#: functions.php:196
+#: functions.php:197
+#: functions.php:204
+#: functions.php:205
+msgid "Share on"
+msgstr ""
+
+#: functions.php:200
+#: functions.php:201
+msgid "Share via"
+msgstr ""
+
+#: functions.php:208
+#: functions.php:209
+msgid "Submit to"
+msgstr ""
+
+#: functions.php:216
+msgid "track this"
+msgstr ""
+
+#: functions.php:216
+#: functions.php:217
+msgid "via RSS"
+msgstr ""
+
+#: functions.php:217
+msgid "Track this"
+msgstr ""
+
+#: functions.php:220
+#: functions.php:221
+msgid "email this"
+msgstr ""
+
+#: functions.php:224
+#: functions.php:225
+msgid "print this"
+msgstr ""
+
+#: functions.php:260
+msgid "Become my MySpace follower"
+msgstr ""
+
+#: functions.php:261
+msgid "Read Reviews"
+msgstr ""
+
+#: share-and-follow.php:158
+msgid "Tweet about it"
+msgstr ""
+
+#: share-and-follow.php:160
+msgid "Digg this post"
+msgstr ""
+
+#: share-and-follow.php:161
+msgid "share via Reddit"
+msgstr ""
+
+#: share-and-follow.php:166
+msgid "Become my Facebook friend"
+msgstr ""
+
+#: share-and-follow.php:169
+msgid "Become my friend on Hyves"
+msgstr ""
+
+#: share-and-follow.php:170
+msgid "Become Orkut Buddies"
+msgstr ""
+
+#: share-and-follow.php:171
+msgid "Become a myspace follower"
+msgstr ""
+
+#: share-and-follow.php:173
+#: share-and-follow.php:174
+#: share-widget.php:140
+msgid "Buzz it up"
+msgstr ""
+
+#: share-and-follow.php:175
+msgid "Follow me"
+msgstr ""
+
+#: share-and-follow.php:176
+msgid "Join my conversations"
+msgstr ""
+
+#: share-and-follow.php:178
+msgid "Read reviews"
+msgstr ""
+
+#: share-and-follow.php:180
+msgid "RSS"
+msgstr ""
+
+#: share-and-follow.php:182
+msgid "here is a link to a site I really like. "
+msgstr ""
+
+#: share-and-follow.php:183
+msgid "Subscribe to my YouTube Channel"
+msgstr ""
+
+#: share-and-follow.php:184
+msgid "Subscribe to the comments on this post"
+msgstr ""
+
+#: share-widget.php:138
+msgid "Recomend on Facebook"
+msgstr ""
+
+#: share-widget.php:179
+msgid "Direction"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Share and Follow"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://phat-reaction.com/share-and-follow"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A simple plugin to manage sharing and following. <a href=\"options-general.php?page=share-and-follow.php\">Options &amp; configuration</a> | <a href=\"http://phat-reaction.com/share-and-follow/\" >Documentation</a> | <a href=\"http://phat-reaction.com/share-and-follow/support/\" >Support</a> | <a href=\"http://phat-reaction.com/share-and-follow/what-do-you-want/\" >Tell me what you want?</a>"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Andy Killen"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://phat-reaction.com"
+msgstr ""
+

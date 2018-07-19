@@ -1,0 +1,84 @@
+	a:link			{font:normal 9px Verdana;color:#000000; text-decoration:underline;}
+	a:visited		{font:normal 9px Verdana;color:#000000; text-decoration:underline;}
+	a:active		{font:normal 9px Verdana;color:#000000; text-decoration:underline;}
+	a:hover			{font:normal 9px Verdana;color:#ff0000; text-decoration:underline;}
+
+	.a2:link		{font:normal 12px Verdana;color:#000000; text-decoration:none;font-weight:bold;}
+	.a2:visited		{font:normal 12px Verdana;color:#000000; text-decoration:none;font-weight:bold;}
+	.a2:active		{font:normal 12px Verdana;color:#000000; text-decoration:none;font-weight:bold;}
+	.a2:hover		{font:normal 12px Verdana;color:#ff0000; text-decoration:none;font-weight:bold;}
+	
+	.main			{padding:6px 4px 0 4px;
+					border-left:1px solid #ece4e3;
+					border-right:1px solid #ece4e3;
+					background:url(graphics/shell/main_bg.gif) repeat-x top left #efefef;}
+					
+	.playerCell		{background: #ffffff;
+					 border-left:1px solid #c0c0c0;
+					 border-right:1px solid #c0c0c0;
+					 font:normal 11px Tahoma;
+					 color:#000000;}
+
+	.bannerSpanS	{height:96px;
+					 width:249px;
+					 overflow:hidden;
+					 vertical-align:middle;
+					 font:normal 9px Verdana; text-transform:none;}
+
+	.bannerSpanL	{height:96px;
+					 width:403px;
+					 overflow:hidden;
+					 vertical-align:middle;
+					 font:normal 9px Verdana; text-transform:none;}
+					 
+	.bannerSpanX	{height:96px;
+					 width:698px;
+					 overflow:hidden;
+					 vertical-align:middle;
+					 font:normal 9px Verdana; text-transform:none;}			 
+
+	.radioBottomBg	{background:url(graphics/shell/radio_c_bg.gif) repeat-x bottom left;}
+
+	.bgBottomBanner	{height:70px;
+					border-left:1px solid #ece4e3;
+					border-right:1px solid #ece4e3;}
+
+	.visitSponsors	{font:bold 11px Tahoma;
+					color:#000000;
+					text-align:center;
+					vertical-align:middle;}
+					
+	.linkButton		{padding-left: 11px;
+					 padding-right: 18px;
+					 padding-top: 9px;
+					 padding-bottom: 10px;
+					 font:normal 9px Verdana; text-transform:none;font-weight:bold;
+					 overflow: hidden;}
+
+	.body_text_08	{font:normal 9px Verdana; text-transform:none;}
+	.body_text_08_bold	{font:normal 9px Verdana; text-transform:none;font-weight:bold;}
+	
+	.body_text_09_bold {font:normal 9pt Verdana; text-transform:none; font-weight:bold;}
+	
+	.playerTransportMessage	{font:normal 9px Verdana;
+							 text-transform:none;
+							 color:#efefef;}
+	
+	.footer			{font:normal 11px Tahoma;
+					color:#000000;	}
+	
+	.filelist		{width:230px;
+					height:62px;
+					overflow-x:hidden;
+					overflow-y:auto;
+					scrollbar-face-color:#888;
+					scrollbar-arrow-color:#000;
+					scrollbar-track-color:#ccc;
+					scrollbar-shadow-color:#000;
+					scrollbar-highlight-color:#000;
+					scrollbar-3dlight-color:#808080;
+					scrollbar-darkshadow-Color:#202020;
+					border-top:1px solid #000;
+					border-left:1px solid #000;
+					border-bottom:1px solid #000;}
+

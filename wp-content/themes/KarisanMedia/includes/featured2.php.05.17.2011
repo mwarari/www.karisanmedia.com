@@ -1,0 +1,9 @@
+<?php global $themeoptionsprefix; if(get_option($themeoptionsprefix.'_alternatecropper') == '1'){ $cropperfile="cropper.php";}elseif(get_option($themeoptionsprefix.'_alternatecropper') == '2'){ $cropperfile="cropper-alt.php";} ?>
+
+<h2>Keeping It Real </h2>
+<img style="border-style: solid; border-color: #600000; border-width: 2px; widht=322px; height=230px;" src="http://www.karisanmedia.com/wp-content/images/KeepingItReal/DSC_1797.jpg" width="322" height="230"/>
+<br/>
+Abalo, Audrey and GiGi… The Girls of Keeping it Real live show every Wednesday at 8:00 pm CST. SEE YOU THERE!!!
+
+
+

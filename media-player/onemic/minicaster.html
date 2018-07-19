@@ -1,0 +1,48 @@
+<html>
+<body>
+<object id="fmp256" type="application/x-shockwave-flash" data="minicaster.swf" width="180" height="70">
+																		<param name="movie" value="minicaster.swf" />
+																		<param name="wmode" value="transparent" />
+																		<param name="allowScriptAccess" value="always" />
+																		</object>
+<script language="JavaScript">
+<!--
+    function getObject(_x) {
+	// used to locate the Flash asset in the DOM. Works reliably on FF, IE and Safari.
+	return document.getElementById(_x);
+    }
+    window.onunload = function() {
+	// stops audio when browser moves to a new page or closes. Helps stop a crash in Safari.
+        getObject("fmp256").playpause(0);
+    }
+    function setconfig(_url) {
+	// sends Flash a new config file URL.
+	getObject("fmp256").setconfig(_url);
+    }
+    function toggle() {
+	// changes between play and pause. To force audio to stop use '0' in the function.
+	getObject("fmp256").playpause(1);
+    }
+
+	// the following two functions should be removed for a public production website.
+    function xtrace(_st) {
+	// sends text from Flash to the on-screen debugging display (if used)
+  	getObject("xtracef").t.value += _st + '\n';
+    }
+    function clearTrace() {
+	// removes all text from the debugging display (if used)
+	getObject("xtracef").t.value = "";
+    }
+// -->
+</script>
+<h3>extendedReporting system</h2>
+<p>The text area below shows information sent from Minicaster every time something happens. You would normally not 
+include this on a public website, but it allows you to debug problems with your stream and config files. See the 
+documentation for instructions on using this system.</p>
+
+<p><a href="#" onClick="clearTrace()">clear trace box</a></p>
+<form name="xtracef" id="xtracef" method="get" action="#">
+<textarea rows="20" cols="120" name="t"></textarea>
+</form>
+</body>
+</html>

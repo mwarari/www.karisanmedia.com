@@ -1,0 +1,75 @@
+/*  
+styles to fix search input box issue in IE plus any additional IE fixes
+*/
+
+
+#tier1 .tier1main {
+width:590px;
+margin:5px 0px 0px 10px;
+float:left;
+background:#ffffff;
+padding:10px 0px 0px 10px;
+height:305px;
+}
+
+#tier1 .tier1main .tier1mainright {
+width:220px;
+float:right;
+margin-right:5px;
+}
+
+#tier1 .tier1side {
+float:left;
+width:330px;
+margin-left:10px;
+}
+
+#tierX .tierXmain {
+width:580px;
+margin:5px 0px 0px 10px;
+float:left;
+padding:10px 0px 0px 10px;
+}
+
+#tierX .tierXmain .tierxcontent {
+margin-bottom:30px;
+width:580px;
+border:1px solid #f2f2f2;
+}
+
+#tierX .tierXside {
+float:left;
+width:320px;
+margin:0px 0px 20px 10px;
+}
+
+#postsidebar {
+float:left;
+width:210;
+}
+
+#postsidebar .postsidebarcontent {
+width:210;
+padding:10px;
+}
+
+#postsidebar .postsidebarcontent .widget {
+width:210px;
+border:5px solid #f2f2f2;
+margin-bottom:5px;
+}
+
+#postsidebar .postsidebarcontent .widget ul {
+width:210px;
+}
+
+
+#postsidebar .postsidebarcontent select {
+width:210px;
+padding:3px;
+border:1px solid #dddddd;
+}
+
+
+#maincontainer .datesearch .search .searchinput { border:1px solid #dddddd; padding:2px; width:275px; margin-top:4px; height:15px; }
+#maincontainer .datesearch .search .searchbutton { float:left; margin-top:5px; background:#cccccc; border:1px solid #dddddd; padding:1px; }
